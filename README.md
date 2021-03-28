@@ -1,2 +1,2 @@
 # get-env
-get env.php on magento
+Get env.php on magento2
