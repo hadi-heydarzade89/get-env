@@ -1,0 +1,26 @@
+{
+    "name": "hadi-heydarzade89/module-get-env",
+    "description": "You can access to env.php with this module",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "Hadi heydarzade",
+        "email": "hadi.heydarzade@protonmail.com",
+        "homepage": "https://github.com/hadi-heydarzade89/",
+        "role": "Technical Support"
+      }
+    ],
+    "require": {
+      "php": "~7.2.0||~7.3.0"
+    },
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "H2\\GetEnv\\": ""
+      }
+    },
+    "version": "1.0.0"
+  }
